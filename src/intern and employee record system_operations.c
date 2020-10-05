@@ -1,21 +1,56 @@
 #include <calculator_operations.h>
 
-int add(int operand1, int operand2)
+int Employee Data(int operand1, int operand2)
 {
     return operand1 + operand2;
 }
 
-int subtract(int operand1, int operand2)
+int Add Record(int operand1, int operand2)
 {
     return operand1 - operand2;
 }
 
-int multiply(int operand1, int operand2)
+int List Records(int operand1, int operand2)
 {
     return operand1 * operand2;
 }
 
-int divide(int operand1, int operand2)
+int Modify Records(int operand1, int operand2)
+{
+    return operand1 * operand2;
+}
+
+int Delete Records(int operand1, int operand2)
+{
+    return operand1 * operand2;
+}
+
+int Intern Data(int operand1, int operand2)
+{
+    return operand1 * operand2;
+}
+
+int Add Record(int operand1, int operand2)
+{
+    return operand1 - operand2;
+}
+
+int List Records(int operand1, int operand2)
+{
+    return operand1 * operand2;
+}
+
+int Modify Records(int operand1, int operand2)
+{
+    return operand1 * operand2;
+}
+
+int Delete Records(int operand1, int operand2)
+{
+    return operand1 * operand2;
+}
+
+int Exit(int operand1, int operand2)
 {
     if(0 == operand2)
         return 0;
