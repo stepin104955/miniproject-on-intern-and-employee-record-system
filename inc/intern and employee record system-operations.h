@@ -9,28 +9,28 @@
 #include <windows.h>
 #include <stdio_ext.h>
 
-int employeedata(int operand1, int operand2);
+int Employee Data(int operand1, int operand2);
 
-int addrecord(int operand1, int operand2);
+int Add Record(int operand1, int operand2);
 
-int listrecord(int operand1, int operand2);
+int List Record(int operand1, int operand2);
 
-int modifyrecord(int operand1,int operand2);
+int Modify Record(int operand1,int operand2);
 
-int deleterecord(int operand1,int operand2);
+int Delete record(int operand1,int operand2);
 
-int exit(int operand1,int operand2);
+int Exit(int operand1,int operand2);
 
-int interndata(int operand1, int operand2);
+int Intern data(int operand1, int operand2);
 
-int addrecord(int operand1, int operand2);
+int Add Record(int operand1, int operand2);
 
-int listrecord(int operand1, int operand2);
+int List Record(int operand1, int operand2);
 
-int modifyrecord(int operand1,int operand2);
+int Modify Record(int operand1,int operand2);
 
-int deleterecord(int operand1,int operand2);
+int Delete record(int operand1,int operand2);
 
-int exit(int operand1,int operand2);
+int Exit(int operand1,int operand2);
 
 #endif 
