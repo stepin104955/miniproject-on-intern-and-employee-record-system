@@ -1,21 +1,20 @@
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
 
-/* Modify these two lines according to the project */
-#include <intern and employee record system_operations.h>
-#define PROJECT_NAME    "intern and employee record system"
+#include <intern_and_employee_record_system_operations.h>
+#define PROJECT_NAME    "intern_nd_employee_record_system"
 
 /* Prototypes for all the test functions */
-void test_Employee Data(void);
-void test_Add Record(void);
-void test_List Records(void);
-void test_Modify Records(void);
-void test_Delete Records(void);
-void test_Intern Data(void);
-void test_Add Record(void);
-void test_List Records(void);
-void test_Modify Records(void);
-void test_Delete Records(void);
+void test_EmployeeData(void);
+void test_Addemployee(void);
+void test_Viewallemployees(void);
+void test_Modifyemployee(void);
+void test_Deleteemployee(void);
+void test_InternData(void);
+void test_Addintern(void);
+void test_Viewallinterns(void);
+void test_Modifyintern(void);
+void test_Deleteintern(void);
 void test_Exit(void);
 /* Start of the application test */
 int main() {
@@ -28,16 +27,16 @@ int main() {
   
   
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "Employee Data", test_Employee Data);
-  CU_add_test(suite, "Add Record", test_Add Record);
-  CU_add_test(suite, "List Records", test_List Records);
-  CU_add_test(suite, "Modify Records", test_Modify Records);
-  CU_add_test(suite, "Delete Records", test_Modify Records);
-  CU_add_test(suite, "Intern Data", test_Intern Data);
-  CU_add_test(suite, "Add Record", test_Add Record);
-  CU_add_test(suite, "List Records", test_List Records);
-  CU_add_test(suite, "Modify Records", test_Modify Records);
-  CU_add_test(suite, "Delete Records", test_Delete Records);
+  CU_add_test(suite, "Employee Data", test_EmployeeData);
+  CU_add_test(suite, "Add employee", test_Addemployee);
+  CU_add_test(suite, "View all employees", test_Viewallemployees);
+  CU_add_test(suite, "Modify employee test_Modifyemployee);
+  CU_add_test(suite, "Delete employee", test_Deleteemployee);
+  CU_add_test(suite, "Intern Data", test_InternData);
+  CU_add_test(suite, "Add intern", test_Addintern);
+  CU_add_test(suite, "View all interns", test_viewallinterns);
+  CU_add_test(suite, "Modify Intern", test_Modifyintern);
+  CU_add_test(suite, "Delete Intern", test_Deleteintern);
   CU_add_test(suite, "Exit", test_Exit);
 
 
@@ -55,77 +54,77 @@ int main() {
 }
 
 /* Write all the test functions */ 
-void test_Employee Data(void) {
+void test_EmployeeData(void) {
   CU_ASSERT(30 == Employee Data(10, 20));
   
   /* Dummy fail*/
   CU_ASSERT(1500 == Employee Data(750, 7500));
 }
 
-void test_Add Record(void) {
-  CU_ASSERT(-3 == Add Record(0, 3));
+void test_Addemployee(void){
+  CU_ASSERT(-3 == Addemployee(0,3));
   
   /* Dummy fail*/
-  CU_ASSERT(1 == Add Record(1000, 900));
+  CU_ASSERT(1 == Addemployee(1000,900));
 }
 
-void test_List Records(void) {
-  CU_ASSERT(0 == List Records(1, 0));
+void test_viewallemployees(void){
+  CU_ASSERT(0 ==viewallemployees(0,1));
   
   /* Dummy fail*/
-  CU_ASSERT(2 == List Records2, 5));
+  CU_ASSERT(0 ==viewallemployees(2,5));
 }
 
-void test_Modify Records(void) {
-  CU_ASSERT(0 == Modify Records(1, 0));
+void test_Modifyemployee(void) {
+  CU_ASSERT(0 == Modifyemployee(1, 0));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == Modify Records(2, 2));
+  CU_ASSERT(3 == Modifyemployee(2, 2));
 }
 
-void test_Delete Records(void) {
-  CU_ASSERT(0 == Delete Records(1, 0));
+void test_Deleteemployee(void) {
+  CU_ASSERT(0 == Deleteemployee(1, 0));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == Delete Records(2, 2));
+  CU_ASSERT(3 == Deleteemployee(2, 2));
 }
 
-void test_Intern Data Records(void) {
-  CU_ASSERT(0 ==Intern Data(1, 0));
+void test_InternData(void) {
+  CU_ASSERT(0 ==InternData(1, 0));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == Intern Data(2, 2));
+  CU_ASSERT(3 == InternData(2, 2));
 }
 
-void test_Add Record(void) {
-  CU_ASSERT(0 == Add Record(1, 0));
+void test_Addintern(void) {
+  CU_ASSERT(0 == Addintern(1, 0));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == Add Record(2, 2));
+  CU_ASSERT(3 == Addintern(2, 2));
 }
 
-void test_List Records(void) {
-  CU_ASSERT(0 == List Records(1, 0));
+void test_viewallinterns(void){
+  CU_ASSERT(0 ==viewallinterns(1,0));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == List Records(2, 2));
+  CU_ASSERT(0 ==viewallinterns(1,0));
 }
 
-void test_Modify Records(void) {
-  CU_ASSERT(0 == Modify Records(1, 0));
+void test_Modifyintern(void) {
+  CU_ASSERT(0 == Modifyintern(1, 0));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == Modify Records(2, 2));
+  CU_ASSERT(3 == Modifyintern(2, 2));
 }
 
-void test_Delete Records(void) {
-  CU_ASSERT(0 == Delete Records(1, 0));
+void test_Deleteintern(void) {
+  CU_ASSERT(0 == Deleteintern(1, 0));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == Delete Records(2, 2));
+  CU_ASSERT(3 == Deleteintern(2, 2));
 }
 
-void test_Exit Records(void) {
+void test_Exit(void) {
   CU_ASSERT(0 == Exit(1, 0));
   
   /* Dummy fail*/
