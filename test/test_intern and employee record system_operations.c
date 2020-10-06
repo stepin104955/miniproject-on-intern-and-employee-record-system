@@ -34,7 +34,7 @@ int main() {
   CU_add_test(suite, "Delete employee", test_Deleteemployee);
   CU_add_test(suite, "Intern Data", test_InternData);
   CU_add_test(suite, "Add intern", test_Addintern);
-  CU_add_test(suite, "View all interns", test_viewallinterns);
+  CU_add_test(suite, "View all interns", test_Viewallinterns);
   CU_add_test(suite, "Modify Intern", test_Modifyintern);
   CU_add_test(suite, "Delete Intern", test_Deleteintern);
   CU_add_test(suite, "Exit", test_Exit);
@@ -63,11 +63,11 @@ void test_Addemployee(void){
   CU_ASSERT(1 == Addemployee(1000,900));
 }
 
-void test_viewallemployees(void){
-  CU_ASSERT(0 ==viewallemployees(0,1));
+void test_Viewallemployees(void){
+  CU_ASSERT(0 ==Viewallemployees(0,1));
   
   /* Dummy fail*/
-  CU_ASSERT(0 ==viewallemployees(2,5));
+  CU_ASSERT(0 ==Viewallemployees(2,5));
 }
 
 void test_Modifyemployee(void) {
@@ -98,11 +98,11 @@ void test_Addintern(void) {
   CU_ASSERT(3 == Addintern(2, 2));
 }
 
-void test_viewallinterns(void){
-  CU_ASSERT(0 ==viewallinterns(1,0));
+void test_Viewallinterns(void){
+  CU_ASSERT(0 ==Viewallinterns(1,0));
   
   /* Dummy fail*/
-  CU_ASSERT(0 ==viewallinterns(1,0));
+  CU_ASSERT(0 ==Viewallinterns(1,0));
 }
 
 void test_Modifyintern(void) {
