@@ -21,7 +21,7 @@ int Delete record(int operand1,int operand2);
 
 int Exit(int operand1,int operand2);
 
-int Intern data(int operand1, int operand2);
+int Intern Data(int operand1, int operand2);
 
 int Add Record(int operand1, int operand2);
 
