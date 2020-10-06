@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#include <intern_and_employee_record_system_operations.h>
 
 struct _employee {
 	int id;
