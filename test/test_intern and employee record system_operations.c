@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 #include <intern_and_employee_record_system_operations.h>
-#define PROJECT_NAME    "intern_nd_employee_record_system"
+#define PROJECT_NAME    "intern_and_employee_record_system"
 
 /* Prototypes for all the test functions */
 void test_EmployeeData(void);
