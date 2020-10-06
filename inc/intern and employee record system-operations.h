@@ -4,32 +4,31 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+#include <ctype.h>
 #include <string.h>
-#include <windows.h>
 #include <stdio_ext.h>
 
-int Employee Data(int operand1, int operand2);
+int EmployeeData(int operand1, int operand2);
 
-int Add Record(int operand1, int operand2);
+int Addemployee(int operand1, int operand2);
 
-int List Record(int operand1, int operand2);
+int Viewallemployees(int operand1, int operand2);
 
-int Modify Record(int operand1,int operand2);
+int Modifyemployee(int operand1,int operand2);
 
-int Delete record(int operand1,int operand2);
+int Deleteemployee(int operand1,int operand2);
 
 int Exit(int operand1,int operand2);
 
-int Intern Data(int operand1, int operand2);
+int InternData(int operand1, int operand2);
 
-int Add Record(int operand1, int operand2);
+int Addintern(int operand1, int operand2);
 
-int List Record(int operand1, int operand2);
+int Listintern(int operand1, int operand2);
 
-int Modify Record(int operand1,int operand2);
+int Modifyintern(int operand1,int operand2);
 
-int Delete record(int operand1,int operand2);
+int Deleteintern(int operand1,int operand2);
 
 int Exit(int operand1,int operand2);
 
