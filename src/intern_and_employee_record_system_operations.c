@@ -1,4 +1,4 @@
-#include <calculator_operations.h>
+#include <intern_and_employee_record_system_operations.h>
 
 int EmployeeData(int operand1, int operand2)
 {
@@ -10,7 +10,7 @@ int Addemployee(int operand1, int operand2)
     return operand1 - operand2;
 }
 
-int viewallemployee(int operand1, int operand2)
+int Viewallemployee(int operand1, int operand2)
 {
     return operand1 * operand2;
 }
@@ -35,17 +35,17 @@ int Addintern(int operand1, int operand2)
     return operand1 - operand2;
 }
 
-int viewallinterns(int operand1, int operand2)
+int Viewallinterns(int operand1, int operand2)
 {
     return operand1 * operand2;
 }
 
-int Modifyinterns(int operand1, int operand2)
+int Modifyintern(int operand1, int operand2)
 {
     return operand1 * operand2;
 }
 
-int Deleteinterns(int operand1, int operand2)
+int Deleteintern(int operand1, int operand2)
 {
     return operand1 * operand2;
 }
