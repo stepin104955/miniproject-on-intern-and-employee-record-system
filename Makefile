@@ -1,16 +1,16 @@
 # Name of the project
-PROJECT_NAME = intern and employee record system
+PROJECT_NAME = intern_and_employee_record_system
 
 # Output directory
 BUILD = build
 
 # All source code files
 SRC = project_main.c\
-src/intern and employee record system_operations.c\
+src/intern_and_employee_record_system_operations.c\
 
 # All test source files
-TEST_SRC = src/intern and employee record system_operations.c\
-test/test_intern and employee record system_operations.c
+TEST_SRC = src/intern_and_employee_record_system_operations.c\
+test/test_intern_and_employee_record_system_operations.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
