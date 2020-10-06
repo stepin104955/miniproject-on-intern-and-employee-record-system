@@ -30,7 +30,7 @@ int main() {
   CU_add_test(suite, "Employee Data", test_EmployeeData);
   CU_add_test(suite, "Add employee", test_Addemployee);
   CU_add_test(suite, "View all employees", test_Viewallemployees);
-  CU_add_test(suite, "Modify employee test_Modifyemployee);
+  CU_add_test(suite, "Modify employee", test_Modifyemployee);
   CU_add_test(suite, "Delete employee", test_Deleteemployee);
   CU_add_test(suite, "Intern Data", test_InternData);
   CU_add_test(suite, "Add intern", test_Addintern);
