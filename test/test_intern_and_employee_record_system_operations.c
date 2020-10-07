@@ -27,16 +27,16 @@ int main() {
   
   
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "Employee Data", test_EmployeeData);
-  CU_add_test(suite, "Add employee", test_Addemployee);
-  CU_add_test(suite, "View all employees", test_Viewallemployees);
-  CU_add_test(suite, "Modify employee", test_Modifyemployee);
-  CU_add_test(suite, "Delete employee", test_Deleteemployee);
-  CU_add_test(suite, "Intern Data", test_InternData);
-  CU_add_test(suite, "Add intern", test_Addintern);
-  CU_add_test(suite, "View all interns", test_Viewallinterns);
-  CU_add_test(suite, "Modify Intern", test_Modifyintern);
-  CU_add_test(suite, "Delete Intern", test_Deleteintern);
+  CU_add_test(suite, "EmployeeData", test_EmployeeData);
+  CU_add_test(suite, "Addemployee", test_Addemployee);
+  CU_add_test(suite, "Viewallemployees", test_Viewallemployees);
+  CU_add_test(suite, "Modifyemployee", test_Modifyemployee);
+  CU_add_test(suite, "Deleteemployee", test_Deleteemployee);
+  CU_add_test(suite, "InternData", test_InternData);
+  CU_add_test(suite, "Addintern", test_Addintern);
+  CU_add_test(suite, "Viewallinterns", test_Viewallinterns);
+  CU_add_test(suite, "ModifyIntern", test_Modifyintern);
+  CU_add_test(suite, "DeleteIntern", test_Deleteintern);
   CU_add_test(suite, "Exit", test_Exit);
 
   CU_basic_set_mode(CU_BRM_VERBOSE);
