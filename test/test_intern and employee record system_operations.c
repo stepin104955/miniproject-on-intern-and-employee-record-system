@@ -1,7 +1,7 @@
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
 
-#include <intern_and_employee_record_system_operations.h>
+#include <intern_and employee record system_operations.h>
 #define PROJECT_NAME    "intern_and_employee_record_system"
 
 /* Prototypes for all the test functions */
